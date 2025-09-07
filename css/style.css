@@ -252,7 +252,7 @@ nav {
   font-weight: 300;
   letter-spacing: 4px;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   opacity: 0.8;
 }
 
@@ -276,15 +276,26 @@ nav {
     text-align: center;   /* center text for readability */
   }
 
-    .section-title {
+  .section-title {
         font-size: 12px;
         letter-spacing: 2px;
     
   }
+ 
 
   .about-text {
     font-size: clamp(1rem, 4vw, 1.5rem); /* scale text fluidly */
     max-width: 100%;  /* no fixed width */
+  }
+}
+
+ @media (max-width: 1260px) {
+  
+    .section-title {
+        font-size: 12px;
+        letter-spacing: 2px;
+        margin-bottom: -25px;
+    
   }
 }
 
@@ -451,6 +462,7 @@ nav {
   margin:59px 0 ; */
   position: relative;
   z-index: 2;
+  padding: 30px 0;
 }
 
 .contact .container {
@@ -531,13 +543,13 @@ nav {
 }
 /* ✅ Tablet & Small Laptop Responsive */
 @media (max-width: 1260px) {
-  .contact {
+  /* .contact {
     padding: 70px 40px;
-  }
+  } */
 
-  .contact .container {
+  /* .contact .container {
     padding: 0 30px;
-  }
+  } */
 
   .contact-column {
     gap: 0px;
@@ -650,7 +662,6 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
-
 
 
 
