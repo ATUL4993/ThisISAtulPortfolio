@@ -279,7 +279,7 @@ nav {
     .section-title {
         font-size: 12px;
         letter-spacing: 2px;
-        margin-bottom: -33px;
+    
   }
 
   .about-text {
@@ -650,6 +650,7 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
 
