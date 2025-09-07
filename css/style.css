@@ -577,7 +577,7 @@ nav {
   }
 
   .column1 {
-    padding-left:15px;
+    
     min-width: 100%;
     margin-top: 0;
   }
@@ -587,7 +587,7 @@ nav {
   }
 
   .column3 {
-    padding-left: 15px;
+    
     align-items: start;
     text-align: start;
   }
@@ -596,9 +596,7 @@ nav {
     font-size: 13px;
 
   }
-  .section-title{
-    padding-left:15px;
-  }
+  
   
 }
 
@@ -652,6 +650,7 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 
 
